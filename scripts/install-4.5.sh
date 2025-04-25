@@ -87,11 +87,11 @@ wget -O nvshadercache.zip https://github.com/j3soon/isaac-sim-colab/releases/dow
 unzip -d / -o nvshadercache.zip
 
 # Download Isaac Sim minimal example
-wget -O isaac-sim-simulation-example.py https://raw.githubusercontent.com/j3soon/omni-farm-isaac/master/tasks/isaac-sim-simulation-example.py
+wget -O time_stepping.py https://raw.githubusercontent.com/j3soon/isaac-sim-colab/refs/heads/main/thirdparty/isaacsim/standalone_examples/api/isaacsim.core.api/time_stepping.py
 
 # Set environment variables
 # Ref: https://docs.isaacsim.omniverse.nvidia.com/latest/installation/install_python.html#running-isaac-sim
 export OMNI_KIT_ACCEPT_EULA=YES
 
 # Run the minimal example
-python isaac-sim-simulation-example.py 10
+python time_stepping.py
