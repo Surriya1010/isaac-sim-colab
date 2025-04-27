@@ -21,4 +21,4 @@ export OMNI_KIT_ACCEPT_EULA=YES
 
 # Run minimal example
 # Ref: https://isaac-sim.github.io/IsaacLab/main/source/overview/reinforcement-learning/rl_existing_scripts.html
-python scripts/reinforcement_learning/rl_games/train.py --task Isaac-Cartpole-v0 --headless
+# python scripts/reinforcement_learning/rl_games/train.py --task Isaac-Cartpole-v0 --headless
