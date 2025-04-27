@@ -66,7 +66,8 @@ curl -LsSf https://astral.sh/uv/install.sh | sh
 
 # Install Isaac Sim through pip.
 # Ref: https://docs.isaacsim.omniverse.nvidia.com/latest/installation/install_python.html
-uv pip install -qq isaacsim[all]==4.5.0 isaacsim[extscache]==4.5.0 --extra-index-url https://pypi.nvidia.com
+uv pip install -qq isaacsim[all]==4.5.0 --extra-index-url https://pypi.nvidia.com
+uv pip install -qq isaacsim[extscache]==4.5.0 --extra-index-url https://pypi.nvidia.com
 
 # Download pre-compiled shader cache
 # Ref: https://docs.isaacsim.omniverse.nvidia.com/4.5.0/installation/install_faq.html
