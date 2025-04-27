@@ -84,11 +84,11 @@ uv pip install -qq isaacsim[extscache]==4.5.0 --extra-index-url https://pypi.nvi
 # and then download the files to the local machine.
 # These cache directories are required to prevent shader re-compilation on startup, and has been verified through manual testing.
 # Please note that the shader cache files do not work with the `isaacsim` command, but this is not an issue since we will not use that command in Colab anyway.
-wget -O glcache.zip https://github.com/j3soon/isaac-sim-colab/releases/download/v0.0.1/glcache_pip-4.5_python-script_T5-gpu.zip
+wget -O glcache.zip https://github.com/j3soon/isaac-sim-colab/releases/download/v0.0.2/glcache_pip-4.5_python-script_T5-gpu.zip
 unzip -d / -o glcache.zip
-wget -O usr-cache.zip https://github.com/j3soon/isaac-sim-colab/releases/download/v0.0.1/usr-cache_pip-4.5_python-script_T5-gpu.zip
+wget -O usr-cache.zip https://github.com/j3soon/isaac-sim-colab/releases/download/v0.0.2/usr-cache_pip-4.5_python-script_T5-gpu.zip
 unzip -d / -o usr-cache.zip
-wget -O ov-cache.zip https://github.com/j3soon/isaac-sim-colab/releases/download/v0.0.1/ov-cache_pip-4.5_python-script_T5-gpu.zip
+wget -O ov-cache.zip https://github.com/j3soon/isaac-sim-colab/releases/download/v0.0.2/ov-cache_pip-4.5_python-script_T5-gpu.zip
 unzip -d / -o ov-cache.zip
 
 # Download Isaac Sim minimal example
