@@ -1,6 +1,8 @@
-# Isaac Sim Colab
+# Isaac Sim (and Isaac Lab) on Colab
 
 Unofficial instructions for running headless [Isaac Sim](https://docs.isaacsim.omniverse.nvidia.com/latest/index.html) and [Isaac Lab](https://isaac-sim.github.io/IsaacLab/main/index.html) on Google Colab.
+
+This setup is for demo purposes only, using various hacks to run Isaac Sim on Colab. Serious development is not recommended, as Colab is not officially supported.
 
 ## Demo
 
@@ -17,6 +19,7 @@ Run the following to clean up notebooks before committing:
 
 ```sh
 nb-clean clean --preserve-cell-outputs notebooks/isaac-sim-4.5-colab.ipynb
+nb-clean clean --preserve-cell-outputs notebooks/isaac-lab-2.1.0-colab.ipynb
 ```
 
 Sometimes Isaac Sim installation fails due to `pip install` issues. In this case, try deleting the runtime and creating a new one.
