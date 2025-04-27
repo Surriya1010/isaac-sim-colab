@@ -97,5 +97,5 @@ wget -O time_stepping.py https://raw.githubusercontent.com/j3soon/isaac-sim-cola
 # Ref: https://docs.isaacsim.omniverse.nvidia.com/latest/installation/install_python.html#running-isaac-sim
 export OMNI_KIT_ACCEPT_EULA=YES
 
-# Run the minimal example
+# Run minimal example
 python time_stepping.py
